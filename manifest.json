@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "name": "Feel Like Hacked",
+    "description": "Extension for changing images of a website",
+    "author": "Gabriel Magni",
+    "browser_action": {
+   	 "default_title": "Feel Like Hacked"
+    },
+    "background": {
+        "scripts": ["imgcrawler.js"],
+        "persistent": false
+      },
+      "permissions": [
+        "*://*/*",
+        "activeTab",
+        "tabs"]
+}
